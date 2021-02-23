@@ -1,0 +1,16 @@
+{
+  "name": "soldadura",
+  "version": "1.0.0",
+  "description": "nuestro primer proyecto de node.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ikhoudvanyou93@bitbucket.org/ikhoudvanyou93/soldadura.git"
+  },
+  "author": "roger smit",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ikhoudvanyou93/soldadura#readme"
+}
