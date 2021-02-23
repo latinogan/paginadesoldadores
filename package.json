@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "nuestro primer proyecto de nodejs",
   "main": "index.html",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "lite-server": "^2.6.1"
   },
-  "devDependencies": {},
-  "scripts": {
+  "scripts": {    "dev": "lite-server"
+
     "test": "}"
   },
   "repository": {
