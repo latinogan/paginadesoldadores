@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "nuestro primer proyecto de node.js",
   "main": "index.html",
-  "scripts": {
+  "scripts": {    "dev": "lite-server"
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "roger smit",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ikhoudvanyou93/soldadura#readme"
+  "homepage": "https://bitbucket.org/ikhoudvanyou93/soldadura#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
