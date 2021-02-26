@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    
+
+    <title>soldadores.</title >
+  </head>
+  <body>
+    <hr>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">soldadores</a>
+      <button class="navbar-toggler" type="button" data-toggler="collapse" data target="#navbarSupportedContent" aria-controls="navbarNavDropdown"aria-expanded="false" aria-label="Toggle navigation"> 
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a> </li>
+          <li class="nav-item "><a class="nav-link" href="#">nosotros</a> </li>
+          <li class="nav-item active"><a class="nav-link" href ="#">contactanos</a> </li>
+          <li class="nav-item"><a class="nav-link" href ="#">Terminos y condiciones</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1>soldadores.</h1>
+    </div>
+
+   <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">home</a></li>
+         <li class="breadcrumb-item active" aria-current="page">contactanos</li>
+       </ol>
+
+    </nav>
+    <h1> Dejame tu comentario</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-sm-6 ">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group col-sm-6 ">
+           <label for="apellido">apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+
+       
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="Ingrese su email">
+        
+      </div>
+      <div class="form-row">
+        <div class="form-group col-sm-9">
+          <label for="domicilio">Domicilio</label>
+          <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+        </div>
+        <div class="form-group col-sm-3 ">
+           <label for="provincia">provincia</label>
+           <select id="provincia" class="form-control">
+            <option selected> Capital bogota</option>
+            <option > Cali</option>
+            <option > cartagena</option>
+            <option > baranquilla</option>
+            <option > san andres</option>
+             
+           </select>
+         
+        </div>
+      </div>
+      <div  class="form-group">
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" class="form-control" rows="10"></textarea>
+
+      </div>
+      <div class="form-group">
+        <label for="contactame"></label>
+        
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+  </div>
+   
+    <footer>
+      <div class="d-flex">
+         <div class="col-sm-3 d-flex flex-column">
+          <a href="http://www.facebook.com">facebook</a>
+          <a href="http://www.instagram.com">instagram</a>
+          <a href="http://www.twitter.com">twitter</a>
+
+      </div>
+
+       <div class="col-sm-4">
+       <address>
+        <h3>oficina central</h3>
+         <p><span class="oi oi-location footer-address-icon"></span>calle zijweik 61 , san nicolaas,aruba</p>
+         <p><span class="oi oi-phone footer-address-icon"></span>+0122333444</p>
+         <p><span class="oi oi-envelope-closed footer-address-icon"></span> contacto@soldadores.com</p>
+       </address>
+     </div>
+
+        <div class="col-sm-3 d-flex flex-column align-items-end">
+          <a href=" www.facebook.com">contactanos</a>
+          <a href="http://www.instagram.com">ayuda</a>
+          <a href="http://www.twitter.com">terminos y condiciones</a>
+
+        </div>
+
+
+    </footer>
+     
+
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+   
+
+   
+   
+  </body>
+</html>
