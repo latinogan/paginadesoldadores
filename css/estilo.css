@@ -1,14 +1,20 @@
 .jumbotron{
 	color: red ;
 	background-color: blue;
-
+     padding: 50px 50px 10px 0px;
 }
 footer{
 	padding: 10px 10px 0 10px;
 	background-color: blue;
-	margin-bottom: 0px
+	margin-bottom: 50px
 	margin-top:10px
 }
+
 img{
-	padding: 0px
+	 top: -10px
+    height: 500px;
+
+ 
 }
+
+
