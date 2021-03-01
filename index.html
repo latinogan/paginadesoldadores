@@ -114,9 +114,9 @@
 </form>
 
 </div>
-
+ id
     </div>
-    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactobtn">Contacto</button>
 
 
     <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModallabel" aria-hidden="true">
@@ -196,11 +196,28 @@
   </script>-->
 <script>
     $(document).ready(function(){
-        $('[data-toggle="mensaje"]').tooltip(); 
+        $('[data-toggle="Mensaje"]').tooltip(); 
         $("[data-toggle='popover']").popover();
         $('.carousel').carousel({
            interval:2000
   });
+
+         $('#contacto').on('shown.bs.modal', function (e) {
+            console.log("el modal se esta mostrando alias el sarco");
+})
+         $('#contactobtn').removeClass('btn-outline-success');
+
+         $('#contactobtn').addClass('btn-primary');
+
+           
+
+         $('#contacto').on('shown.bs.modal', function (e) {
+            console.log("el modal se oculta alias el sarco");
+
+             
+})
+         
+         
     });
     </script>
  
